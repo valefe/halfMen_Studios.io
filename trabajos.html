@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="index, follow">
+        <meta name="descripcion" content="Bienvenido a mi portafolio, donde presento una selección de proyectos que reflejan mi pasión por el diseño interactivo. Cada proyecto muestra mi enfoque en crear interfaces intuitivas y estéticamente atractivas, trabajando en colaboración con equipos multidisciplinarios para ofrecer soluciones digitales efectivas y centradas en el usuario">
+        <title> Portafolio Alejandro Orozco</title>
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Css/estilo.css">
+        <link rel="icon" href="./Icon/fabicon.svg">
+        <!--iconos-->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <!--fuentes de google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!--fuentes de adobe-->
+        <link rel="stylesheet" href="https://use.typekit.net/wga0hpu.css">
+        <!--estilos-->
+        <link rel="stylesheet" href="/Css/estilos.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <img src="./Icon/Logo.svg" alt="logo" class="header_svg__logo">            
+
+                <label class="label_hamburguesa" for="menu_hamburguesa">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list_icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </label>
+                <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+                <ul class="ul_links">
+                    <li class="li_links">
+                        <a class="link" href="index.html" class="header_nav_btn__item">Home</a>
+                    </li>
+                    <li class="li_links">
+                        <a class="link" href="vida.html" class="header_nav_btn__item">Vida</a>
+                    </li>
+                    <li class="li_links">
+                        <a class="link" href="hobbies.html" class="header_nav_btn__item">Hobbies</a>
+                    </li>
+                    <li class="li_links">
+                        <a class="link" href="trabajos.html" class="header_nav_btn__item">Trabajos</a>
+                    </li>
+                    <li class="li_links">
+                        <a class="link" href="contacto.html" class="header_nav_btn__item">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <!--Portada-->
+            <section class="main_portada contenedor">
+                <div class="capitulo_caja">
+                    <h2>CAPITULO</h2>
+                </div>
+                <div class="main_portada_2cajas">    
+                    <div class="main_portada_proyectos">
+                        <h1>Proyectos</h1>
+                    </div>            
+                </div>  
+            </section>
+
+            <!--Frase-->
+            <section class="main_frase contenedor">
+                <div class="main_frase_cajaProyectos">
+                    <div class="main_frase_fraseVida">
+                        <h2 class="frase">La suerte no te encuentra. eres tú quien encuentra a la suerte. por eso dejé de creer en la suerte cuando empecé a creer en mí mismo.</h2>
+                        <h3 class="autor">Pablo Pérez</h3>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!--proyectos destacados-->
+            <section class="main_Proeyectos contenedor">  
+                <div class="titulo_proyectos_caja">
+                    <h2 class="titulo_punto">Proyectos destacados</h2>
+                    <div class="imagen_logo_proyectos">
+                        <img src="./Img/foto_calidad.png" alt="ilustacion de un logo de calidad">
+                    </div>
+                </div>    
+
+                <div class="titulo_proyectos" id="branding">
+                    <h3>Branding</h3>  
+                </div>
+                <div class="imagenes_proyectos">
+                    <div class="box" id="proyecto1">
+                        <a class="button" href="#popup1">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 1" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto1" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto2">
+                        <a class="button" href="#popup2">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 2" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto2" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto3">
+                        <a class="button" href="#popup3">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 3" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup3" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto3" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto4">
+                        <a class="button" href="#popup4">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 4" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup4" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto4" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="titulo_proyectos">
+                    <h3>Ilustraciones</h3>
+                </div>
+                <div class="imagenes_proyectos">
+                    <div class="box" id="proyecto5">
+                        <a class="button" href="#popup5">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 5" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup5" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto5" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto6">
+                        <a class="button" href="#popup6">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 6" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup6" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto6" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto7">
+                        <a class="button" href="#popup7">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 7" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup7" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto7" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto8">
+                        <a class="button" href="#popup8">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 8" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup8" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto8" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="titulo_proyectos">
+                    <h3>Videojuegos</h3>
+                </div>
+                
+                <div class="imagenes_proyectos">
+                    <div class="box" id="proyecto9">
+                        <a class="button" href="#popup9">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 9" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup9" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto9" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto10">
+                        <a class="button" href="#popup10">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 10" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup10" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto10" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto11">
+                        <a class="button" href="#popup11">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 11" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup11" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto11" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto12">
+                        <a class="button" href="#popup12">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 12" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup12" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto12" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="titulo_proyectos">
+                    <h3>UI/UX</h3>
+                </div>
+                
+                <div class="imagenes_proyectos">
+                    <div class="box" id="proyecto13">
+                        <a class="button" href="#popup13">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 13" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup13" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto13" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto14">
+                        <a class="button" href="#popup14">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 14" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup14" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto14" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto15">
+                        <a class="button" href="#popup15">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 15" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup15" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto15" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="proyecto16">
+                        <a class="button" href="#popup16">
+                            <img src="./Img/Recurso 1.png" alt="trabajo 16" class="trabajos_portafolio">
+                        </a>
+                    </div>
+                    <div id="popup16" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a href="#proyecto16" class="close">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--pase capitulo-->
+            <section class="main_capitulo contenedor">
+                <h5 class="titulo_capitulo">Siguiente <br> Capitulo...</h5>
+                <button type="#" class="capitulo">TRABAJOS</button>
+            </section>
+        </main>
+
+
+        <footer id="footer">
+            <div class="footer_caja">
+                <div class="logo_oroz">
+                    <img src="/Icon/logoB.svg" alt="">
+                </div>
+                <div class="social-media">
+                    <a href="" class="social-media-icon"><img src="/Img/instagramIcon.png" alt=""></a>
+                    <a href="" class="social-media-icon"><img src="/Img/behance.png" alt=""></a>
+                    <a href="" class="social-media-icon"><img src="/Img/linkedin.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
